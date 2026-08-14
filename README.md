@@ -1,77 +1,65 @@
-# Dwarven-Idle Privacy-Policy
+# ⛏️ Dwarven Idle
 
-**Last updated: August 10, 2026**
+> **Build your mining operation. Dig deeper. Discover Mithril. Become a legend.**
 
-This Privacy Policy explains how **Dwarven Idle** ("the Game", "we", "us", or "our") handles information when you use our mobile application.
+Welcome to **Dwarven Idle**, an incremental mining game where you manage a growing mining operation, improve your equipment, discover valuable ore, and push deeper into the mountain.
 
-## Information Collected
+## 🪨 Mine. Upgrade. Discover.
 
-We do not directly ask you to provide personal information such as your name, email address, phone number, or physical address.
+Start with a single miner and move up to a powerful mining system.
 
-However, the Game uses **Google AdMob** to display advertisements. Google and its advertising partners may automatically collect and process certain information from your device when advertisements are displayed or interacted with.
+* **Mine valuable ore** and uncover the riches hidden beneath the mountain.
+* **Hire miners** to expand your production.
+* **Prestige** to gain permanent progress and push further than before.
+* **Master your skills** in Mining, Speed, Luck, and more.
+* **Keep progressing** even when you're away from the game.
 
-This information may include:
+##The Mountain Awaits!
 
-- Advertising identifiers, such as the Android Advertising ID
-- IP address
-- Device and application information
-- Approximate location
-- Information about interactions with advertisements
-- Diagnostic, performance, and crash-related information
-- Information used to detect fraud and abuse
+The deeper you go, the more rewarding—the mountain becomes.
 
-Information collected through advertising services is handled according to Google's applicable privacy policies and advertising technology.
+Build your operation, optimize your production, and see how far you can take your guild.
 
-## Advertising
+> **Keep mining! ⛏️**
 
-The Game uses **Google AdMob**, a service provided by Google LLC, to display advertisements.
+---
 
-AdMob may use information collected from your device to provide, measure, personalize, and improve advertisements, subject to applicable laws and your consent where required.
+## 🛠️ Development
 
-For more information about how Google uses information from apps and websites that use its services, please visit:
+This project is developed using **Godot Engine**.
 
-- [Google Privacy Policy](https://policies.google.com/privacy)
-- [Google Advertising Technologies](https://policies.google.com/technologies/partner-sites)
+The game is currently under active development, so features, balancing, artwork, and mechanics may change as development continues.
 
-## Consent and Privacy Choices
+### Current focus
 
-Depending on your location and applicable privacy laws, you may be shown a consent or privacy choices dialog when using the Game.
+* Improving the user interface
+* Adding new mining and progression systems
+* Balancing upgrades and progression
+* Improving animations and visual feedback
+* Expanding the tutorial and new-player experience
 
-Where required, we request consent before using personal information for personalized advertising.
+---
 
-You may also be able to change your advertising privacy choices through the options provided by the Game.
+## 🐛 Feedback & Suggestions
 
-## Data Sharing
+Found a bug or have an idea?
 
-We do not sell your personal information.
+Feel free to [open an issue](../../issues) and let me know.
 
-Information may be processed by Google and its advertising partners to:
+Feedback is especially valuable during the game's early testing phase!
 
-- Provide advertisements
-- Measure advertising performance
-- Prevent fraud and abuse
-- Maintain the security and functionality of advertising services
+---
 
-## Children's Privacy
+## 📜 About
 
-The Game is not specifically directed toward children under the age of 13.
+**Dannte**
 
-We do not knowingly collect personal information directly from children.
+Independent game development project.
 
-If you believe that a child has provided personal information through the Game, please contact us using the email address below.
+Made with passion and a lot of digging.
 
-## Data Security
+---
 
-We take reasonable measures to protect information associated with the Game. However, no method of electronic transmission or electronic storage is completely secure.
-
-## Changes to This Privacy Policy
-
-We may update this Privacy Policy from time to time.
-
-Any changes will be posted on this page with an updated **"Last updated"** date.
-
-## Contact
-
-If you have any questions or concerns about this Privacy Policy, please contact us at:
-
-**Email:** daniel.lopez9804@gmail.com
+<p align="center">
+  <i>Keep mining.</i> ⛏️
+</p>
