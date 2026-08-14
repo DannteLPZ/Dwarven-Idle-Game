@@ -39,6 +39,11 @@ The game is currently under active development, so features, balancing, artwork,
 * Expanding the tutorial and new-player experience
 
 ---
+## Privacy Policy
+
+You can find more about how we handle privacy here:
+[Privacy Policy](./privacy-policy.html)
+---
 
 ## 🐛 Feedback & Suggestions
 
