@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>Dwarven Idle — Dannte</title>
+
+<meta name="description"
+      content="Dwarven Idle — Build your mining operation. Dig deeper. Discover Mithril. Become a legend.">
+
+<style>
+    :root {
+        --background: #0f1115;
+        --surface: #181b21;
+        --surface-light: #20242c;
+        --text: #e8e8e8;
+        --text-muted: #a7abb3;
+        --accent: #d6a85f;
+        --accent-hover: #e5bb75;
+        --border: #30343d;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        margin: 0;
+        background: var(--background);
+        color: var(--text);
+        font-family:
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            Roboto,
+            Helvetica,
+            Arial,
+            sans-serif;
+        line-height: 1.7;
+    }
+
+    .container {
+        width: min(900px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: 60px 0 80px;
+    }
+
+    header {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .icon {
+        font-size: 56px;
+        margin-bottom: 12px;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: clamp(2.4rem, 6vw, 3.5rem);
+        line-height: 1.15;
+    }
+
+    .tagline {
+        margin: 18px auto 0;
+        max-width: 650px;
+        color: var(--text-muted);
+        font-size: 1.15rem;
+        font-style: italic;
+    }
+
+    .card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 35px 40px;
+        margin-bottom: 25px;
+    }
+
+    h2 {
+        margin-top: 0;
+        margin-bottom: 15px;
+        color: var(--accent);
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        margin-top: 28px;
+        margin-bottom: 10px;
+        color: var(--text);
+        font-size: 1.15rem;
+    }
+
+    p {
+        margin: 12px 0;
+    }
+
+    ul {
+        padding-left: 25px;
+    }
+
+    li {
+        margin: 8px 0;
+    }
+
+    strong {
+        color: #f0f0f0;
+    }
+
+    a {
+        color: var(--accent);
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: var(--accent-hover);
+        text-decoration: underline;
+    }
+
+    .quote {
+        background: var(--surface-light);
+        border-left: 3px solid var(--accent);
+        padding: 15px 20px;
+        margin: 25px 0;
+        border-radius: 5px;
+        font-style: italic;
+    }
+
+    .feature-list {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .feature-list li {
+        padding-left: 30px;
+        position: relative;
+    }
+
+    .feature-list li::before {
+        content: "⛏️";
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .development-list {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .development-list li {
+        padding-left: 25px;
+        position: relative;
+    }
+
+    .development-list li::before {
+        content: "•";
+        position: absolute;
+        left: 5px;
+        color: var(--accent);
+        font-weight: bold;
+    }
+
+    .privacy {
+        text-align: center;
+    }
+
+    .privacy a {
+        display: inline-block;
+        margin-top: 5px;
+    }
+
+    .feedback {
+        background: var(--surface-light);
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 45px;
+        color: var(--text-muted);
+        font-size: 0.9rem;
+    }
+
+    .footer-title {
+        color: var(--text);
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+    .footer-mining {
+        margin-top: 25px;
+        font-style: italic;
+    }
+
+    @media (max-width: 600px) {
+        .container {
+            width: min(100% - 24px, 900px);
+            padding: 35px 0 50px;
+        }
+
+        .card {
+            padding: 25px 20px;
+        }
+
+        .icon {
+            font-size: 48px;
+        }
+
+        .tagline {
+            font-size: 1rem;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+        }
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+<div class="container">
+
+```
+<header>
+    <div class="icon">⛏️</div>
+
+    <h1>Dwarven Idle</h1>
+
+    <p class="tagline">
+        Build your mining operation. Dig deeper. Discover Mithril.
+        Become a legend.
+    </p>
+</header>
+
+
+<main>
+
+    <section class="card">
+
+        <h2>Welcome to Dwarven Idle</h2>
+
+        <p>
+            <strong>Dwarven Idle</strong> is an incremental mining game where
+            you manage a growing mining operation, improve your equipment,
+            discover valuable ore, and push deeper into the mountain.
+        </p>
+
+    </section>
+
+
+    <section class="card">
+
+        <h2>🪨 Mine. Upgrade. Discover.</h2>
+
+        <p>
+            Start with a single miner and grow your operation into a
+            powerful mining system.
+        </p>
+
+        <ul class="feature-list">
+            <li>
+                <strong>Mine valuable ore</strong> and uncover the riches
+                hidden beneath the mountain.
+            </li>
+
+            <li>
+                <strong>Hire miners</strong> to expand your production.
+            </li>
+
+            <li>
+                <strong>Prestige</strong> to gain permanent progress and
+                push further than before.
+            </li>
+
+            <li>
+                <strong>Master your skills</strong> in Mining, Speed, Luck,
+                and more.
+            </li>
+
+            <li>
+                <strong>Keep progressing</strong> even when you're away
+                from the game.
+            </li>
+        </ul>
+
+    </section>
+
+
+    <section class="card">
+
+        <h2>🏔️ The Mountain Awaits!</h2>
+
+        <p>
+            The deeper you go, the more rewarding the mountain becomes.
+        </p>
+
+        <p>
+            Build your operation, optimize your production, and see how
+            far you can take your guild.
+        </p>
+
+        <div class="quote">
+            <strong>Keep mining! ⛏️</strong>
+        </div>
+
+    </section>
+
+
+    <section class="card">
+
+        <h2>🛠️ Development</h2>
+
+        <p>
+            This project is developed using
+            <strong>Godot Engine</strong>.
+        </p>
+
+        <p>
+            The game is currently under active development, so features,
+            balancing, artwork, and mechanics may change as development
+            continues.
+        </p>
+
+        <h3>Current Focus</h3>
+
+        <ul class="development-list">
+            <li>Improving the user interface</li>
+            <li>Adding new mining and progression systems</li>
+            <li>Balancing upgrades and progression</li>
+            <li>Improving animations and visual feedback</li>
+            <li>Expanding the tutorial and new-player experience</li>
+        </ul>
+
+    </section>
+
+
+    <section class="card privacy">
+
+        <h2>🔒 Privacy Policy</h2>
+
+        <p>
+            You can find more about how we handle privacy here:
+        </p>
+
+        <a href="./privacy-policy.html">
+            View Privacy Policy →
+        </a>
+
+    </section>
+
+
+    <section class="card feedback">
+
+        <h2>🐛 Feedback &amp; Suggestions</h2>
+
+        <p>
+            Found a bug or have an idea?
+        </p>
+
+        <p>
+            Feel free to
+            <a href="https://github.com/DannteLPZ/Dwarven-Idle-Game/issues"
+               target="_blank"
+               rel="noopener noreferrer">
+                open an issue
+            </a>
+            and let me know.
+        </p>
+
+        <p>
+            Feedback is especially valuable during the game's early
+            testing phase!
+        </p>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-title">
+        <strong>Dannte</strong>
+    </div>
+
+    <p>
+        Independent game development project.
+    </p>
+
+    <p>
+        Made with passion and a lot of digging.
+    </p>
+
+    <div class="footer-mining">
+        <i>Keep mining.</i> ⛏️
+    </div>
+
+</footer>
+```
+
+</div>
+
+</body>
+</html>
